@@ -1,0 +1,32 @@
+{
+  "name": "@earthr-software/stylelint-config-scss",
+  "version": "0.0.1",
+  "description": "Stylelint config scss",
+  "keywords": [
+    "stylelint",
+    "config",
+    "scss"
+  ],
+  "author": "Aydin Senturk <aydin@earthr.co>",
+  "homepage": "https://github.com/Earthr-Software/stylelint-config#readme",
+  "license": "ISC",
+  "main": ".stylelintrc.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Earthr-Software/stylelint-config.git"
+  },
+  "scripts": {
+    "lint": "stylelint test.scss"
+  },
+  "bugs": {
+    "url": "https://github.com/Earthr-Software/stylelint-config/issues"
+  },
+  "dependencies": {
+    "@earthr-software/stylelint-config-base": "^0.0.2",
+    "stylelint": "^16.6.1",
+    "stylelint-scss": "^6.4.1"
+  }
+}
