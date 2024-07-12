@@ -1,0 +1,27 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-prettier/recommended"],
+  "plugins": ["stylelint-order", "stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": [
+      true,
+      {
+        "printWidth": 100,
+        "singleQuote": true,
+        "trailingComma": "all",
+        "bracketSpacing": true,
+        "tabWidth": 2
+      }
+    ],
+    "order/order": [
+      [
+        "custom-properties",
+        "declarations",
+        {
+          "type": "at-rule",
+          "name": "media"
+        },
+        "rules"
+      ]
+    ]
+  }
+}
