@@ -1,6 +1,6 @@
 {
   "name": "@earthr-software/stylelint-config-scss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stylelint config scss",
   "keywords": [
     "stylelint",
