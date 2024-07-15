@@ -19,14 +19,16 @@
     "url": "git+https://github.com/Earthr-Software/stylelint-config.git"
   },
   "scripts": {
-    "lint": "stylelint test.scss"
+    "lint": "stylelint './test.scss'"
   },
   "bugs": {
     "url": "https://github.com/Earthr-Software/stylelint-config/issues"
   },
   "dependencies": {
     "@earthr-software/stylelint-config-base": "^0.0.2",
+    "sass": "^1.77.8",
     "stylelint": "^16.6.1",
+    "stylelint-config-standard-scss": "^13.1.0",
     "stylelint-scss": "^6.4.1"
   }
 }
