@@ -1,5 +1,29 @@
 $primary-color: #333;
 
+@mixin without-block {
+  color: red;
+}
+
+@mixin with-block($color) {
+  color: $color;
+}
+
+@mixin breakpoint-up($value) {
+  @media (min-width: $value) {
+    @content;
+  }
+}
+
 body {
+  $background: black;
+
+  @include without-block;
+  @include with-block(#fff);
+
   color: $primary-color;
+  background-color: $background;
+
+  @include breakpoint-up(1024px) {
+    color: black;
+  }
 }

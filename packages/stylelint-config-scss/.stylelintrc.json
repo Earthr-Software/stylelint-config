@@ -14,7 +14,6 @@
       [
         "dollar-variables",
         "custom-properties",
-        "declarations",
         {
           "type": "at-rule",
           "name": "extend"
@@ -24,12 +23,13 @@
           "name": "include",
           "hasBlock": false
         },
+        "declarations",
+        "rules",
         {
           "type": "at-rule",
           "name": "include",
           "hasBlock": true
-        },
-        "rules"
+        }
       ]
     ]
   }
