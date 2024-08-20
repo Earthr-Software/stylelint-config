@@ -61,11 +61,11 @@
     stylelint-prettier "^5.0.0"
 
 "@earthr-software/stylelint-config-scss@file:/Users/aydinsenturk/Earthr/stylelint-config/packages/stylelint-config-scss":
-  version "0.0.4"
+  version "0.0.5"
   resolved "file:packages/stylelint-config-scss"
   dependencies:
     "@earthr-software/stylelint-config-base" "^0.0.2"
-    sass "^1.77.8"
+    sass "1.77.6"
     stylelint "^16.6.1"
     stylelint-config-standard-scss "^13.1.0"
     stylelint-scss "^6.4.1"
